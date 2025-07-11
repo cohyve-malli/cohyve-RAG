@@ -1,1 +1,0 @@
-# Arpit - FAISS 

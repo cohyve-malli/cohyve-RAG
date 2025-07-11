@@ -1,1 +1,26 @@
-# Add all the requirements here 
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+
+# Embeddings and Vector Store
+faiss-cpu
+
+# Google Generative AI (Gemini)
+google-generativeai
+
+# Document loading and parsing
+unstructured
+PyMuPDF
+python-docx
+
+# Config and utilities
+python-dotenv
+tqdm
+
+# Testing
+pytest
+
+sentence-transformers

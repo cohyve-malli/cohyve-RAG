@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+
+# Byte-compiled or cache files
+*.pyc
+*.pkl
+*.joblib
+
+# FAISS vector DB
+store/faiss_index/
+faiss_db/
+
+# Data (optional: only keep raw source on repo)
+data/processed/
+data/*_cleaned.*
+data/*.bak
+data/*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# DevContainer
+.devcontainer/.python-version
+.devcontainer/local.db
+
+# Testing
+htmlcov/
+coverage.xml
+.cache/
+.pytest_cache/
+.nox/
+.tox/
+
+# PEP 582 support
+__pypackages__/
+
+# MyPy & Pyright
+.mypy_cache/
+.pyright/
+
+# PyCharm
+.idea/
+
+# Others
+*.swp
+*.swo
